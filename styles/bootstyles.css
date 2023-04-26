@@ -1,0 +1,114 @@
+.header{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height:450px;
+    background-image: url(../images/tableau.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainbody{
+    position: absolute;
+    resize: both;
+    top:450px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 51px;
+}
+
+.tableau{
+    position: relative;
+}
+
+.footer{
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    height:50px;
+    background-color: black;
+}  
+.subheader{
+    padding-top: 10px;
+    padding-right: 20px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.headertext{
+    color:white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.headerlink{
+    text-decoration: underline;
+}
+
+.headerp{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footertext{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.bold{font-weight: bold;}
+
+.italic{font-style: italic;}
+
+h2{font-weight: lighter;}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#0085A1;
+}
+
+.sectiontitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4{
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.pagemenu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 15px;
+}
+

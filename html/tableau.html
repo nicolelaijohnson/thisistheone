@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!--Nicole Lai-Johnson - April 15 5:03 pm (MT)-->
+
+<!--In this page I used the following custom styles: .bold, .subheader, .headerp, .footertext, .sectiontitle, h2, p, h4-->
+
+<html>
+    <head>
+        <title>Nicole Lai-Johnson - Tableau Dashboard</title>
+
+        <!--custom style for this page-->
+        
+        <link href="../styles/bootstyles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="top">
+        <div class="header">
+            <span class="subheader">
+                <a class="bold" href="../index.html">Home</a> &nbsp;&nbsp;&nbsp;
+                <a class="bold" href="about.html">About Me</a> &nbsp;&nbsp;&nbsp;
+                <a class="bold" href="education.html">Education</a> &nbsp;&nbsp;&nbsp;
+                <a class="bold" href="experience.html">Experience</a> &nbsp;&nbsp;&nbsp;
+                <a class="bold" href="tableau.html">Tableau</a>&nbsp;
+            </span>
+            <span class="headertext"><br>
+                <h1>Tableau Dashboard</h1>
+                <h2>Global Superstore</h2>
+                <p class="headerp">Tableau is a very useful resource. Do you want to stay up to date on the statistics about the Coronavirus spread globally? Tableau offers a live <a class="headerlink" href="https://www.tableau.com/covid-19-coronavirus-data-resources" target="_blank" title="Coronavirus Live Update - Tableau">Daily Global Tracker</a> dashboard with lots of information that you can trust!</p>
+            </span>
+        </div>
+
+        <div class="mainbody">
+            <ul class="pagemenu"><a href="#ch1" class="pagemenu">Profits in The 50 States</a></ul> 
+            <ul class="pagemenu"><a href="#ch2" class="pagemenu">California's Profit by Month</a></ul> 
+            <ul class="pagemenu"><a href="#ch3" class="pagemenu">California's Profit per Product Category</a></ul> 
+            <ul class="pagemenu"><a href="#ch4" class="pagemenu">California's Sales Forecast</a></ul> 
+            <div><!--Tableau Dashboard with all 4 charts-->
+                <h2 class="sectiontitle">Tableau Dashboard</h2>
+                <span class="tableau">
+                <center><div class='tableauPlaceholder' id='viz1586901836906' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstore4Dashboard&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalSuperstore4Dashboard&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstore4Dashboard&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586901836906');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='1350px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></center>
+                </span>
+            </div> 
+            <br><br><br>   
+            <div><!--Tableau Chart #1-->
+                <h2 class="sectiontitle" id="ch1">Profits in The 50 States</h2>
+                <span class="tableau">
+                    <center><div class='tableauPlaceholder' id='viz1586988549498' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;Profitsinall50States&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalSuperstoreDashboard_15869009685060&#47;Profitsinall50States' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;Profitsinall50States&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586988549498');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></center>
+                </span>
+                <h4>Chart 1</h4>
+                <p>This chart displays the profit in all 50 states. <span class="bold">Texas</span> and <span class="bold">Ohio</span> are the worst-performing states, while <span class="bold">New York</span> and <span class="bold">California</span> are the highest-profit states.</p>
+            </div>
+            <br><br><br>
+            <div><!--Tableau Chart #2-->
+                <h2 class="sectiontitle" id="ch2">California's Profit by Month (2013-2014)</h2>
+                <span class="tableau">
+                    <center><div class='tableauPlaceholder' id='viz1586987967089' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CAProfitbyMonth2013-2014&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalSuperstoreDashboard_15869009685060&#47;CAProfitbyMonth2013-2014' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CAProfitbyMonth2013-2014&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586987967089');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></center>
+                </span>
+                <h4>Chart 2</h4>
+                <p><span class="bold">California is the highest-profit state</span>, and this chart shows that the <span class="bold">second half of the year</span> is a stronger season in profits</p>
+            </div>
+            <br><br><br>
+            <div><!--Tableau Chart #3-->
+                <h2 class="sectiontitle" id="ch3">California's Profit per Product Category</h2>
+                <span class="tableau">
+                    <center><div class='tableauPlaceholder' id='viz1586988124122' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CAProfitperProductCategory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalSuperstoreDashboard_15869009685060&#47;CAProfitperProductCategory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CAProfitperProductCategory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586988124122');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></center>
+                </span>
+                <h4>Chart 3</h4>
+                <p>In California, <span class="bold">Office Supplies</span> are the most profitable category, followed by Technology. The least profitable category in California is <span class="bold">Furniture</span></p>
+            </div>
+            <br><br><br>
+            <div><!--Tableau Chart #4-->
+                <h2 class="sectiontitle" id="ch4">California's Sales Forecast</h2>
+                <span>
+                    <center><div class='tableauPlaceholder' id='viz1586988330010' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CASalesForecast&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalSuperstoreDashboard_15869009685060&#47;CASalesForecast' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalSuperstoreDashboard_15869009685060&#47;CASalesForecast&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586988330010');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></center>
+                </span>
+                <h4>Chart 4</h4>
+                <p>Considering the sales data from previous years (2011-2014), this is the <span class="bold">Sales forecast</span> for Office Supplies in California through <span class="bold">November 2015</span></p>
+            </div>
+            <br>
+            <center><a href=#top class="pagemenu">Back to top</a></center>
+            <br><br>
+        </div> 
+
+        <div class="footer">       
+            <p class="footertext">Copyright &copy; Nicole Lai-Johnson 2023 | Email: <span class="bold">nicole@gmail.com</span></p></span>
+        </div> 
+    </body>
+</html>
